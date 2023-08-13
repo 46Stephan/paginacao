@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./atividade2.css" />
+    <title>Atividade 2</title>
+  </head>
+
+  <body>
+    <div class="bola">
+      <div class="laranja"></div>
+    </div>
+    <section class="quadrado">
+      <div class="azul"></div>
+      <div class="azul-dois"></div>
+    </section>
+  </body>
+</html>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+  }
+
+  body {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .bola {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .laranja {
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0 20px;
+  }
+
+  .azul {
+    height: 200px;
+    width: 200px;
+    background-color: darkblue;
+    border: 1px solid black;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin: 0 20px;
+  }
+
+  .azul-dois {
+    height: 200px;
+    width: 200px;
+    background-color: darkblue;
+    border: 1px solid black;
+    position: fixed;
+    bottom: 0;
+    margin: 0 20px;
+  }
+</style>
